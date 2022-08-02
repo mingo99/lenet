@@ -10,7 +10,7 @@ import torch.quantization as tq
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
 import numpy as np
-from lenet import LeNet
+from LeNet import LeNet
 from quant import Quant
 
 def mkdirs(directorys):
